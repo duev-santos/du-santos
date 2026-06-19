@@ -18,11 +18,11 @@ export default function HeroSections() {
         {/* Botões de Ação Responsivos */}
         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto px-4 sm:px-0">
           <a
-            href="https://wa.me/SEUNUMERO"
+            href="https://wa.me/5511981911971"
             target="_blank"
             rel="noopener noreferrer"
             /* REMOVIDO o p-8. Ajustado py e px responsivos, e diminuída a fonte no mobile */
-            className="inline-flex justify-center items-center bg-[#EE7FC5] text-[var(--color-inicio)] border-4 border-[#F36535] hover:bg-[#F67234] hover:text-[#1A1A1A] py-3 px-6 md:py-4 md:px-10 rounded-full font-bold text-sm md:text-base transition-all duration-300 shadow-md group w-full sm:w-auto"
+            className="inline-flex justify-center items-center bg-[#EE7FC5] text-[var(--color-inicio)] border-4 border-[#F36535] hover:bg-[#F67234] py-3 px-6 md:py-4 md:px-10 rounded-full font-bold text-sm md:text-base transition-all duration-300 shadow-md group w-full sm:w-auto"
           >
             Bora fechar um projeto!
           </a>

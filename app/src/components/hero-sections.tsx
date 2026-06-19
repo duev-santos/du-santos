@@ -35,6 +35,9 @@ export default function Header() {
             <Link href="#sobre" className="text-[var(--color-text)] hover:text-[var(--color-link-hover)] transition font-medium">
               Sobre mim
             </Link>
+            <Link href="#projetos" className="text-[var(--color-text)] hover:text-[var(--color-link-hover)] transition font-medium">
+              Projetos
+            </Link>
             <Link href="#contato" className="text-[var(--color-text)] hover:text-[var(--color-link-hover)] transition font-medium">
               Contato
             </Link>

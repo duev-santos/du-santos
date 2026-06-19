@@ -1,20 +1,19 @@
 import HeroSections from "./src/components/hero-sections";
 import HomePage from "./src/page/home";
-// Quando criar as outras seções em componentes, você importará assim:
 import PageSection from "./src/page/servicos";
-// import SobreSection from "./src/components/sobre-section";
-// import ContatoSection from "./src/components/contato-section";
+import SobreSection from "./src/page/sobre_mim";
+import ContatoSection from "./src/page/contato";
+import ProjetosSection from "./src/page/projetos";
 
 export default function Page() {
   return (
     <main className="min-h-screen bg-[var(--color-hero-background)]">
-      {/* O conteúdo do início (Hero) que te mandei deve morar dentro deste componente */}
       <HeroSections />
       <HomePage/>
-      {/* As próximas seções do seu portfólio entrarão aqui sequencialmente */}
       <PageSection />
-      {/* <SobreSection /> */}
-      {/* <ContatoSection /> */}
+      <ProjetosSection />
+      <SobreSection />
+      <ContatoSection />
     </main>
   );
 }
