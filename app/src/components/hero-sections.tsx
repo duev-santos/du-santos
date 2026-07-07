@@ -20,6 +20,9 @@ export default function Header() {
             <Link href="#servicos" className="text-[var(--color-text)] hover:text-[var(--color-link-hover)] transition font-medium">
               Serviços
             </Link>
+            <Link href="#sobre" className="text-[var(--color-text)] hover:text-[var(--color-link-hover)] transition font-medium">
+              Sobre mim
+            </Link>
           </div>
 
           {/* 2. LOGO CENTRAL (Sempre no centro absoluto, independente do tamanho da tela)
@@ -32,8 +35,8 @@ export default function Header() {
 
           {/* 3. LINKS DA DIREITA (Ocultos no Mobile) */}
           <div className="hidden md:flex items-center space-x-8 flex-1 justify-start pl-12">
-            <Link href="#sobre" className="text-[var(--color-text)] hover:text-[var(--color-link-hover)] transition font-medium">
-              Sobre mim
+            <Link href="#projetos" className="text-[var(--color-text)] hover:text-[var(--color-link-hover)] transition font-medium">
+              Tecnologias
             </Link>
             <Link href="#projetos" className="text-[var(--color-text)] hover:text-[var(--color-link-hover)] transition font-medium">
               Projetos

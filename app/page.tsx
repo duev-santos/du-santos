@@ -4,6 +4,7 @@ import PageSection from "./src/page/servicos";
 import SobreSection from "./src/page/sobre_mim";
 import ContatoSection from "./src/page/contato";
 import ProjetosSection from "./src/page/projetos";
+import TecnologiasSection from "./src/page/tecnologias";
 
 export default function Page() {
   return (
@@ -11,8 +12,9 @@ export default function Page() {
       <HeroSections />
       <HomePage/>
       <PageSection />
-      <ProjetosSection />
       <SobreSection />
+      <TecnologiasSection />
+      <ProjetosSection />
       <ContatoSection />
     </main>
   );
