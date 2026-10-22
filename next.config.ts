@@ -1,10 +1,11 @@
 import type { NextConfig } from "next";
 
-const isProd = process.env.NODE_ENV === 'production';
+// O GitHub Actions define sempre esta variável como 'true' automaticamente
+const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: isProd ? '/du-santos' : '',
+  basePath: isGithubActions ? '/du-santos' : '',
   images: {
     unoptimized: true,
   },
